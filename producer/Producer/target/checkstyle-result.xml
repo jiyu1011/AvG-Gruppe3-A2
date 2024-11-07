@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\Manuel Dausmann\IdeaProjects\Producer\src\main\java\com\acme\Components\Controller.java">
+<error line="1" severity="error" message="Es fehlt eine package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="16" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="22" column="5" severity="error" message="Klasse &apos;Controller&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;publishMessage&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;Controller&apos; final oder die Methode &apos;publishMessage&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" severity="error" message="Zeile ist 82 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="23" column="50" severity="error" message="Der Parameter producer sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" severity="error" message="Zeile ist 90 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="32" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="32" column="5" severity="error" message="Klasse &apos;Controller&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;publishTextMessage&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;Controller&apos; final oder die Methode &apos;publishTextMessage&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="33" severity="error" message="Zeile ist 83 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="33" column="54" severity="error" message="Der Parameter message sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" severity="error" message="Zeile ist 90 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\Users\Manuel Dausmann\IdeaProjects\Producer\src\main\java\com\acme\Components\MessageSender.java">
+<error line="4" column="17" severity="error" message="Stern-Importe der Form &apos;.*&apos; sollten vermieden werden - javax.jms.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="8" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="10" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="11" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="12" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="20" severity="error" message="Zeile ist 90 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="28" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="28" column="5" severity="error" message="Klasse &apos;MessageSender&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;sendMessage&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;MessageSender&apos; final oder die Methode &apos;sendMessage&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="28" column="29" severity="error" message="Der Parameter message sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="34" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="34" column="5" severity="error" message="Klasse &apos;MessageSender&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;close&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;MessageSender&apos; final oder die Methode &apos;close&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="C:\Users\Manuel Dausmann\IdeaProjects\Producer\src\main\java\com\acme\config\JMSConfig.java">
+<error line="1" severity="error" message="Es fehlt eine package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="13" column="1" severity="error" message="Javadoc-Kommentar ist an der falschen Stelle platziert." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="18" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="18" column="5" severity="error" message="Klasse &apos;JMSConfig&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;jmsListenerContainerFactory&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;JMSConfig&apos; final oder die Methode &apos;jmsListenerContainerFactory&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="19" column="5" severity="error" message="Javadoc-Kommentar ist an der falschen Stelle platziert." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="23" column="13" severity="error" message="Der Parameter connectionFactory sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="34" column="1" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="34" column="1" severity="error" message="Klasse &apos;JMSConfig&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;jmsPooledListenerContainerFactory&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;JMSConfig&apos; final oder die Methode &apos;jmsPooledListenerContainerFactory&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="13" severity="error" message="Der Parameter connectionFactory sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" column="38" severity="error" message="Die magische Zahl &apos;5000&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\Users\Manuel Dausmann\IdeaProjects\Producer\src\main\java\com\acme\Entity\Producer.java">
+<error line="1" severity="error" message="Es fehlt eine package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="19" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="20" severity="error" message="Der Bezeichner &apos;Ort&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="21" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="20" severity="error" message="Der Bezeichner &apos;TickerSymbol&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="22" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="29" severity="error" message="Das Feld &apos;wertpapierList&apos; muss als private deklariert werden und Zugriffsmethoden haben." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="24" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="26" column="5" severity="error" message="Klasse &apos;Producer&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;ChangePrice&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;Producer&apos; final oder die Methode &apos;ChangePrice&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="26" column="17" severity="error" message="Der Bezeichner &apos;ChangePrice&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="26" column="30" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="27" severity="error" message="Zeile ist 110 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="27" column="65" severity="error" message="Nach &apos;(&apos; folgt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="30" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="30" column="5" severity="error" message="Klasse &apos;Producer&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;RaisePrice&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;Producer&apos; final oder die Methode &apos;RaisePrice&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="30" column="17" severity="error" message="Der Bezeichner &apos;RaisePrice&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="30" column="29" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="31" severity="error" message="Zeile ist 96 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="34" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="34" column="5" severity="error" message="Klasse &apos;Producer&apos; sieht wie zur Erweiterung entworfen aus (kann subclassed werden), aber die Methode &apos;LowerPrice&apos; besitzt keinen Javadoc-Kommentar, der erklärt, wie Sie das sicher tun. Wenn die Klasse nicht für Erweiterungen ausgelegt ist, sollten sie die Klasse &apos;Producer&apos; final oder die Methode &apos;LowerPrice&apos; static/final/abstract/empty machen oder die zugelassene Annotation für die Methode hinzufügen." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="34" column="17" severity="error" message="Der Bezeichner &apos;LowerPrice&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="34" column="29" severity="error" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="35" severity="error" message="Zeile ist 96 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\Users\Manuel Dausmann\IdeaProjects\Producer\src\main\java\com\acme\Entity\Wertpapier.java">
+<error line="17" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="20" severity="error" message="Der Bezeichner &apos;Emittent&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="19" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" column="20" severity="error" message="Der Bezeichner &apos;TickerSymbol&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="20" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="20" severity="error" message="Der Bezeichner &apos;Preis&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="21" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="22" severity="error" message="Der Bezeichner &apos;Waehrung&apos; entspricht nicht dem Muster &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="C:\Users\Manuel Dausmann\IdeaProjects\Producer\src\main\java\com\acme\ProducerApplication.java">
+<error line="1" severity="error" message="Es fehlt eine package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="5" column="8" severity="error" message="Nicht verwendeter Import - jakarta.jms.JMSException." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="9" column="27" severity="error" message="Stern-Importe der Form &apos;.*&apos; sollten vermieden werden - com.acme.Repository.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="11" column="8" severity="error" message="Nicht verwendeter Import - org.springframework.boot.autoconfigure.web.ServerProperties." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="13" column="1" severity="error" message="Hilfsklassen sollten keinen Standard-Konstruktur und keinen als public deklarierten Konstruktor haben." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="16" severity="error" message="Zeile ist 92 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="16" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Zeile ist 85 Zeichen lang (Obergrenze ist 80)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="17" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="49" severity="error" message="Vor &apos;=&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="19" column="29" severity="error" message="Der Parameter args sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="C:\Users\Manuel Dausmann\IdeaProjects\Producer\src\main\java\com\acme\Repository\MockDB.java">
+<error line="1" severity="error" message="Es fehlt eine package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="11" severity="error" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="14" column="1" severity="error" message="Die Klasse MockDB sollte als final deklariert werden." source="com.puppycrawl.tools.checkstyle.checks.design.FinalClassCheck"/>
+<error line="15" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="5" severity="error" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" column="28" severity="error" message="Die magische Zahl &apos;100.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="33" column="28" severity="error" message="Die magische Zahl &apos;120.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" column="28" severity="error" message="Die magische Zahl &apos;140.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="47" column="28" severity="error" message="Die magische Zahl &apos;160.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="54" column="28" severity="error" message="Die magische Zahl &apos;180.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="61" column="28" severity="error" message="Die magische Zahl &apos;200.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="68" column="28" severity="error" message="Die magische Zahl &apos;220.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="75" column="28" severity="error" message="Die magische Zahl &apos;240.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="82" column="28" severity="error" message="Die magische Zahl &apos;260.00&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+</checkstyle>
